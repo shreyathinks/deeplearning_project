@@ -1,0 +1,93 @@
+# ==========================================
+# Datasets (Large files > 100MB / gigabytes)
+# ==========================================
+**/data/
+data/
+CarDD_COCO/
+CarDD_SOD/
+CarDD_detect/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ==========================================
+# Model Weights & Training Runs / Checkpoints
+# ==========================================
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+*.engine
+**/runs/
+**/outputs/
+runs/
+outputs/
+yolov8s.pt
+
+# ==========================================
+# Web Application Uploads & Temp Files
+# ==========================================
+**/webapp/uploads/*
+!**/webapp/uploads/.gitkeep
+
+# ==========================================
+# Node / Frontend (portfolio)
+# ==========================================
+**/node_modules/
+node_modules/
+**/dist/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# Python & Jupyter
+# ==========================================
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ==========================================
+# OS & IDE Files
+# ==========================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.log

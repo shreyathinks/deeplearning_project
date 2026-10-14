@@ -1,0 +1,13 @@
+ultralytics>=8.0.0
+transformers>=4.28.0
+evaluate
+accelerate
+grad-cam
+scikit-learn
+pandas
+numpy
+opencv-python
+matplotlib
+seaborn
+tqdm
+pyyaml
